@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+#sobre {
+  background-color: #3498db;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.btn-custom:hover {
+  color: #3498db !important;
+}
