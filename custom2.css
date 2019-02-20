@@ -19,12 +19,11 @@
   background-color: #333;
 }
 
- .topo #sobre2 span {
+ .topo .about span {
    background-color: #333;
-   margin-top: 4vh;
  }
 
-.sobre .btn-custom:hover {
+.about .btn-custom:hover {
   color: #3498db !important;
 }
 
@@ -38,4 +37,8 @@
   background-color: #333;
   color: #eee;
 
+}
+
+.icons {
+  padding: 100px;
 }
