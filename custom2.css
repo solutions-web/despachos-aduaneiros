@@ -27,3 +27,9 @@
 .btn-custom:hover {
   color: #3498db !important;
 }
+
+
+.services .title {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 4px;
+}
