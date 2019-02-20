@@ -14,22 +14,28 @@
 }
 
 .nav-link {
-  display:inline-block;
+  display: inline-block;
   margin-bottom: 2px;
-  background-color: #222;
+  background-color: #333;
 }
 
  .topo #sobre2 span {
-   background-color: #222;
+   background-color: #333;
    margin-top: 4vh;
  }
 
-.btn-custom:hover {
+.sobre .btn-custom:hover {
   color: #3498db !important;
 }
 
 
-.services .title {
+.services .title, .contact .title {
     border-bottom: 2px solid #3498db;
     padding-bottom: 4px;
+}
+
+.contact {
+  background-color: #333;
+  color: #eee;
+
 }
