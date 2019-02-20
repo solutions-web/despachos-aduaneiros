@@ -5,9 +5,9 @@
 }
 
 .topo {
-    background-image: url("images/dock3.jpg");
-    /* background-color: #ff6666;
-    background-blend-mode: screen; */
+    background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
+    background-color: #222;
+    /* background-blend-mode: screen; */
     background-size: cover;
     background-position: top left;
     color: #eee;
