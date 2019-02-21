@@ -30,15 +30,19 @@ html {
 
 
 .about .btn-custom:hover {
-  color: #3498db !important;
-
+  color: #d35400 !important;
 }
 
 .services .title, .contact .title {
+    /* border-bottom: 2px solid #3498db; */
+    /* color:  #d35400 ; */
     border-bottom: 2px solid #3498db;
     padding-bottom: 4px;
 }
 
+.services h4 {
+  color:  #d35400;
+}
 .contact, .footer {
   background-color: #333;
   color: #eee;
@@ -51,4 +55,9 @@ html {
 
 .footer .social-media i {
   margin: 2vh;
+}
+
+
+html i {
+  /* color:  #3498db; */
 }
