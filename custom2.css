@@ -4,6 +4,11 @@
   font-family: 'Dosis', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+
+}
+
 .header {
     background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
     background-color: #333;
