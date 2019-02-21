@@ -4,7 +4,7 @@
   font-family: 'Dosis', sans-serif;
 }
 
-.topo {
+.header {
     background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
     background-color: #333;
     /* background-blend-mode: screen; */
@@ -19,7 +19,7 @@
   background-color: #222;
 }
 
- .topo .about span {
+ .header .about span {
    background-color: #222;
  }
 
@@ -29,18 +29,21 @@
 
 }
 
-
 .services .title, .contact .title {
     border-bottom: 2px solid #3498db;
     padding-bottom: 4px;
 }
 
-.contact {
+.contact, .footer {
   background-color: #333;
   color: #eee;
-
 }
 
-.icons {
-  padding: 100px;
+.contact .btn-custom {
+  background-color: #3498db !important;
+  border-color: #3498db !important;
+}
+
+.footer .social-media i {
+  margin: 2vh;
 }
