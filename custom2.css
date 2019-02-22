@@ -6,28 +6,37 @@
 
 html {
   scroll-behavior: smooth;
-
 }
 
 .header {
-    background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
     background-color: #333;
-    /* background-blend-mode: screen; */
-    background-size: cover;
-    background-position: top left;
     color: #eee;
+    /* background-blend-mode: screen; */
 }
 
+
+.header .wrapper {
+  background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
+  background-size: cover;
+  background-position: top left;
+
+  position: relative;
+}
 .nav-link {
   display: inline-block;
+  
   margin: 1px 0;
   background-color: #222;
 }
 
- .header .about span {
+.header .about {
+  position: relative;
+}
+
+
+.header .about span {
    background-color: #222;
  }
-
 
 .about .btn-custom:hover {
   color: #d35400 !important;
@@ -43,6 +52,7 @@ html {
 .services h4 {
   color:  #d35400;
 }
+
 .contact, .footer {
   background-color: #333;
   color: #eee;
@@ -57,7 +67,21 @@ html {
   margin: 2vh;
 }
 
-
 html i {
   /* color:  #3498db; */
+}
+
+#mainNav {
+  background-color: #222;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
 }
