@@ -15,13 +15,12 @@ html {
 }
 
 
-.header .wrapper {
+.header  {
   background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
   background-size: cover;
   background-position: top left;
-
-  position: relative;
 }
+
 .nav-link {
   display: inline-block;
 
@@ -72,7 +71,7 @@ html i {
 }
 
 #mainNav {
-  
+
 }
 
 @media (min-width: 992px) {
@@ -88,4 +87,9 @@ html i {
 
 .navbar-shrink {
   background-color: #222;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 1;
 }
