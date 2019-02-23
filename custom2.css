@@ -24,7 +24,7 @@ html {
 }
 .nav-link {
   display: inline-block;
-  
+
   margin: 1px 0;
   background-color: #222;
 }
@@ -72,7 +72,7 @@ html i {
 }
 
 #mainNav {
-  background-color: #222;
+  
 }
 
 @media (min-width: 992px) {
@@ -84,4 +84,8 @@ html i {
     border: none;
     background-color: transparent;
   }
+}
+
+.navbar-shrink {
+  background-color: #222;
 }
