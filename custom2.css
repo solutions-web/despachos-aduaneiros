@@ -18,7 +18,7 @@ html {
 .header  {
   background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
   background-size: cover;
-  background-position: top left;
+  /* background-position: top left; */
 }
 
 .nav-link {
@@ -29,7 +29,7 @@ html {
 }
 
 .header .about {
-  position: relative;
+  /* position: relative; */
 }
 
 
@@ -39,6 +39,10 @@ html {
 
 .about .btn-custom:hover {
   color: #d35400 !important;
+}
+
+.services {
+  margin-top: 100px;
 }
 
 .services .title, .contact .title {

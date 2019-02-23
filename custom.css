@@ -3,9 +3,15 @@
   font-family: 'Dosis', sans-serif;
 }
 
-#sobre {
+.topo {
+  background-image: url("images/shipmedium.jpeg");
   background-color: #3498db;
   color: #fff;
+  background-size: cover;
+}
+
+#sobre {
+
 }
 
 .btn-custom:hover {
