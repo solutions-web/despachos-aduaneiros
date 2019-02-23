@@ -9,22 +9,22 @@ html {
 }
 
 .header {
-    background-color: #333;
-    color: #eee;
-    /* background-blend-mode: screen; */
-}
-
-
-.header  {
+  background-color: #333;
+  color: #eee;
+  /* background-blend-mode: screen; */
   background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
   background-size: cover;
   /* background-position: top left; */
+  margin-top: 5vh;
+}
+
+#mainNav {
+  background-color: #222;
 }
 
 .nav-link {
-  display: inline-block;
-
-  margin: 1px 0;
+  /* display: inline-block; */
+  /* margin: 1px 0; */
   background-color: #222;
 }
 
@@ -34,15 +34,19 @@ html {
 
 
 .header .about span {
-   background-color: #222;
+   /* background-color: #222; */
  }
 
 .about .btn-custom:hover {
   color: #d35400 !important;
 }
 
+.content {
+  padding-top: 15vh;
+}
+
 .services {
-  margin-top: 100px;
+  margin-top: 10vh;
 }
 
 .services .title, .contact .title {
@@ -56,8 +60,9 @@ html {
   color:  #d35400;
 }
 
+
 .contact, .footer {
-  background-color: #333;
+  background-color: #222;
   color: #eee;
 }
 
@@ -72,10 +77,6 @@ html {
 
 html i {
   /* color:  #3498db; */
-}
-
-#mainNav {
-
 }
 
 @media (min-width: 992px) {

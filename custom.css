@@ -4,14 +4,15 @@
 }
 
 .topo {
-  background-image: url("images/shipmedium.jpeg");
+  /* background-image: url("images/shipmedium.jpeg"); */
   background-color: #3498db;
   color: #fff;
   background-size: cover;
 }
 
-#sobre {
-
+.topo #sobre {
+  background-color: #3498db;
+  color: #fff;
 }
 
 .btn-custom:hover {
