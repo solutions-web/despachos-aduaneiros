@@ -30,9 +30,8 @@ html {
 }
 
 .header .about {
-  /* position: relative; */
+    padding: 21vh 4vh 4vh 4vh;
 }
-
 
 .header .about span {
    /* background-color: #222; */
@@ -41,10 +40,10 @@ html {
 .about .btn-custom:hover {
   color: #d35400 !important;
 }
-
+/*
 .content {
   padding-top: 15vh;
-}
+} */
 
 .services {
   margin-top: 10vh;
