@@ -21,8 +21,8 @@ html {
 }
 
 .header {
-  /* padding-top: 10vh;
-  margin-top: 56px; */
+  /* padding-top: 10vh; */
+  margin-top: 56px;
   color: #eee;
   background-color: #222;
   background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
