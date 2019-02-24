@@ -44,6 +44,10 @@ html {
 .header .about span {
    /* background-color: #222; */
  }
+ 
+.about .btn-custom {
+  margin-bottom: 1rem;
+}
 
 .about .btn-custom:hover {
   color: #d35400 !important;
