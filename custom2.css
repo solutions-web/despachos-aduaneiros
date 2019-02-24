@@ -25,7 +25,7 @@ html {
   margin-top: 56px;
   color: #eee;
   background-color: #222;
-  background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
+  background-image: url("images/ship-medium-edited.jpg"); /* Photo by Sascha Hormel from Pexels */
   background-size: cover;
   background-position: 32%;
   /* background-blend-mode: screen; */
@@ -45,10 +45,6 @@ html {
    /* background-color: #222; */
  }
 
-.header .about .subtitle {
-  /* text-shadow: 1px 0 0 #444, -1px 0 0 #444, 0 1px 0 #444, 0 -1px 0 #444,
-    1px 1px #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444; */
-}
 
 .about .btn-custom {
   margin-bottom: 1rem;
