@@ -44,7 +44,12 @@ html {
 .header .about span {
    /* background-color: #222; */
  }
- 
+
+.header .about .subtitle {
+  text-shadow: 1px 0 0 #444, -1px 0 0 #444, 0 1px 0 #444, 0 -1px 0 #444,
+    1px 1px #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444;
+}
+
 .about .btn-custom {
   margin-bottom: 1rem;
 }
