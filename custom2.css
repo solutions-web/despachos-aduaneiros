@@ -6,31 +6,39 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
-.header {
-  padding-top: 20vh;
-  background-color: #222;
-  color: #eee;
-  /* background-blend-mode: screen; */
-  background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
-  background-size: cover;
-  /* background-position: top left; */
-  margin-top: 5vh;
-}
 
 #mainNav {
   background-color: #222;
 }
 
 .nav-link {
+  background-color: #222;
   /* display: inline-block; */
   /* margin: 1px 0; */
+}
+
+.header {
+  /* padding-top: 10vh;
+  margin-top: 56px; */
+  color: #eee;
   background-color: #222;
+  background-image: url("images/shipmedium.jpeg"); /* Photo by Sascha Hormel from Pexels */
+  background-size: cover;
+  background-position: 32%;
+  /* background-blend-mode: screen; */
+  /* image-resolution: 100dpi; */
+
 }
 
 .header .about {
-    padding: 21vh 4vh 4vh 4vh;
+  padding-left: 10vh;
+}
+
+.header .about {
+    padding: 20vh 4vh 4vh 4vh;
 }
 
 .header .about span {
@@ -81,12 +89,7 @@ html i {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent;
+
   }
 }
 
