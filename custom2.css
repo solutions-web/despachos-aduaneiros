@@ -6,95 +6,123 @@
 
 html {
   scroll-behavior: smooth;
-
 }
 
+  #mainNav {
+    background-color: #222;
+  }
 
-#mainNav {
-  background-color: #222;
-}
+  .nav-link {
+    /* background-color: #222; */
+    /* display: inline-block; */
+    /* margin: 1px 0; */
+  }
 
-.nav-link {
-  background-color: #222;
-  /* display: inline-block; */
-  /* margin: 1px 0; */
-}
+  .header {
+    /* padding-top: 10vh; */
+    margin-top: 56px;
+    color: #eee;
+    background-color: #222;
+    background-image: url("images/ship-large-edited3.jpg"); /* Photo by Sascha Hormel from Pexels */
+    background-size: cover;
+    background-position: 32%;
+    /* background-attachment: fixed; */
+    /* background-blend-mode: screen; */
+    /* image-resolution: 100dpi; */
 
-.header {
-  /* padding-top: 10vh; */
-  margin-top: 56px;
-  color: #eee;
-  background-color: #222;
-  background-image: url("images/ship-medium-edited2.jpg"); /* Photo by Sascha Hormel from Pexels */
-  background-size: cover;
-  background-position: 32%;
-  /* background-blend-mode: screen; */
-  /* image-resolution: 100dpi; */
+  }
 
-}
 
-.header .about {
-  padding-left: 10vh;
-}
 
-.header .about {
+  .header .about {
     padding: 20vh 4vh 4vh 4vh;
-}
+  }
 
-.header .about span {
-   /* background-color: #222; */
- }
+  .header .about p {
+    /* background-color: #222; */
+    padding-top: 2rem;
+  }
 
 
-.about .btn-custom {
-  margin-bottom: 1rem;
-}
+  .about .btn-custom {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-color: #9e441a;
+    background-color: #9e441a;
 
-.about .btn-custom:hover {
-  color: #d35400 !important;
-}
+  }
+
+  .about .btn-custom:hover {
+    color: #eee !important;
+  }
 /*
-.content {
+  .btn {
+    border-radius: 0 !important;
+  } */
+  /*
+  .content {
   padding-top: 15vh;
-} */
+  } */
 
-.services {
-  margin-top: 10vh;
-}
+  .services {
+    margin-top: 5vh;
+  }
 
-.services .title, .contact .title {
+  .services .title, .contact .title {
+    /* border-top: 2px solid #3498db; */
     /* border-bottom: 2px solid #3498db; */
-    /* color:  #d35400 ; */
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 4px;
-}
+    padding: 4px;
 
-.services h4 {
-  color:  #d35400;
-}
+  }
+
+  .services h4 {
+    color:  #d35400;
+  }
 
 
-.contact, .footer {
-  background-color: #222;
-  color: #eee;
-}
+  .contact, .footer {
+    background-color: #222;
+    color: #eee;
+  }
 
-.contact .btn-custom {
-  background-color: #3498db !important;
-  border-color: #3498db !important;
-}
+  .contact .btn-custom {
+    background-color: #3498db !important;
+    border-color: #3498db !important;
+  }
 
-.footer .social-media i {
-  margin: 2vh;
-}
+  .footer .social-media i {
+    margin: 2vh;
+  }
 
-html i {
-  /* color:  #3498db; */
+
+@media (min-width: 768px) {
+    .header {
+      background-image: url("images/ship-large-edited.jpg");
+      padding: 4rem;
+    }
+
+    .header .about element {
+      padding-top: 2rem;
+    }
+
 }
 
 @media (min-width: 992px) {
   #mainNav {
+    /* background-color: #222; */
+  }
 
+  .header {
+    /* background-image: url("images/ship-large-edited.jpg");
+    background-size: cover;
+    background-position: top center; */
+    margin-top: 56px;
+    padding: 0;
+    /* padding-bottom: 10rem; */
+  }
+
+  .about .subtitle, .btn-custom {
+    margin-top: 2rem;
   }
 }
 
