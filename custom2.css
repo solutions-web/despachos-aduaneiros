@@ -40,13 +40,13 @@ html {
 
   .header .about p {
     /* background-color: #222; */
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
 
   .about .btn-custom {
     margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-color: #9e441a;
     background-color: #9e441a;
 
