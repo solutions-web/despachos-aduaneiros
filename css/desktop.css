@@ -47,3 +47,40 @@ html {
   border-color: #9e441a;
   background-color: #9e441a;
 }
+
+.page-image {
+  background: url("../images/containers-large-crop.jpeg") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 10rem;
+}
+
+.blank {
+  padding: 10rem;
+  background-color: #222;
+
+}
+
+.services {
+  padding: 4rem 4rem 4rem 4rem;
+}
+
+.services .title {
+  margin-bottom:2rem;
+}
+
+.services .section {
+  padding: 4rem 0 2rem 0;
+}
+
+.contact {
+  margin-top: 0 !important;
+  background-color: #222;
+  color: #eee;
+}
+
+.footer {
+  background-color: #222;
+  color: #eee;
+}
